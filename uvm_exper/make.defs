@@ -1,0 +1,20 @@
+TOP=top
+TOPOPT=$(TOP)_opt
+
+# The path to the 'work' dir defined in makefile; where the sim runs
+BUILDDIR=$(DEPTH)
+BUILDLOG_DIR=$(BUILDDIR)/build.log
+BUILDLOG_ARG=-l $(BUILDLOG_DIR)
+
+RTL_DIR=$(DEPTH)/rtl
+AGENTS_DIR=$(DEPTH)/agents
+BLOCKTB_DIR=$(DEPTH)/blk_tb
+
+SIM_DIR=$(BLOCKTB_DIR)/sim
+SEQ_DIR=$(BLOCKTB_DIR)/seqs
+VSEQ_DIR=$(BLOCKTB_DIR)/vseqs
+ENV_DIR=$(BLOCKTB_DIR)/env
+TEST_DIR=$(BLOCKTB_DIR)/tests
+TB_DIR=$(BLOCKTB_DIR)/tb
+
+WORKDIR=$(SIM_DIR)

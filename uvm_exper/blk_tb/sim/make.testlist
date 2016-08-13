@@ -1,0 +1,5 @@
+
+# list of tests
+TESTNAMES+=test_base
+TESTNAMES+=test1
+TESTNAMES+=test2
